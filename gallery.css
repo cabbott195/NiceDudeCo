@@ -1,0 +1,22 @@
+img.lv, img.bape, img.ow, img.supreme, img.basic, img.custom{
+    border: 6px double;
+}
+section#ow{
+    display: block;
+    float: left;
+    position: relative;
+    transform: translateX(30px) translateY(-20px)
+}
+section#ow, section#bape{
+    bottom: 283px;
+    left: 450px;
+}
+section#bape{
+    transform: translateY(-303px) translateX(495px);
+}
+section#supreme{
+    transform: translateY(-303px) translateX(-5px);
+}
+section#basic{
+    transform: translateY(-607px) translateX(480px);
+}
