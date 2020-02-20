@@ -1,0 +1,68 @@
+html{
+    background: linear-gradient(rgb(143, 142, 142),rgb(159, 159, 160));
+}
+article h1{
+    text-align: center;
+    font-size: 50px;
+}
+div#demo{
+    text-align: center;
+    font-size: 140px;
+    border-style: double;
+    border-width: thick;
+    margin-left: 20px;
+    width: 90%;
+    transform: translateY(200px);
+    float: left;
+    background: linear-gradient(rgb(63, 62, 62),rgb(116, 116, 121));
+}
+div#demo2{
+    text-align: center;
+    font-size: 140px;
+    border-style: double;
+    border-width: thick;
+    width: 90%;
+    margin-left: 864px;
+    transform: translateY(-355px);
+    background: linear-gradient(rgb(63, 62, 62),rgb(116, 116, 121));
+}
+.row {
+  width: 40%;
+  padding: 0px;
+  padding-top: 0px;
+  transform: translateY(-190px);
+  
+}
+#NewVest{
+    width: 300px;
+    margin-left: 550px;
+    border-style: solid;
+    background: linear-gradient(rgb(233, 229, 16),rgb(241, 245, 3));
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(43, 43, 43);
+}
+  li {
+    float: left;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 65px;
+    text-decoration: none;
+}
+  li a:hover {
+    background-color: rgb(20, 20, 20);
+}
+  li:last-child {
+    border-right: none;
+}
