@@ -26,7 +26,7 @@ nav {
     text-align: center;
 }
 html{
-    background:linear-gradient(greenyellow,gray);
+    background:linear-gradient(#3b6b7a,gray);
     height: 100%;
 }
 #col-1-1{
@@ -66,12 +66,13 @@ div.row {
     box-sizing: border-box;
  }
  a{
-    color: mediumpurple;
+    color: #828180;
     text-decoration: none;
  }
  a:active{
-    color: deeppink;
+    color: #84856c;
  }
  a:hover{
-     color: pink;
+     color: #3b6b7a;
  }
+ 
