@@ -1,57 +1,63 @@
+html{
+    background-color: #4e7b81;
+}
+h1{
+    color: white;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
     background-color: rgb(43, 43, 43);
-  }
+}
   li {
     float: left;
     border-right: 1px solid rgb(196, 196, 196);
-  }
+}
   li a {
     display: block;
     color: white;
     text-align: center;
     padding: 11px 65px;
     text-decoration: none;
-  }
+}
   li a:hover {
     background-color: rgb(20, 20, 20);
-  }
+}
   li:last-child {
     border-right: none;
-  }
-
-img.lv, img.bape, img.ow, img.supreme, img.basic, img.custom{
-    border: 6px outset white;
-    border-radius: 10px;
 }
-section#ow{
-    transform: translateX(480px) translateY(-305px)
+#map{
+    width: 800px;
+    padding: 10px;
+    margin-top: 30px;
 }
-section#bape{
-    transform: translateY(-610px) translateX(960px);
+#maps{
+    height: 100px;
 }
-section#supreme{
-    transform: translateY(-603px) translateX(-5px);
+div#near{
+    margin-left: 900px;
+    transform: translateY(-80px);
 }
-section#basic{
-    transform: translateY(-907px) translateX(480px);
+input#search{
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 20px;
+    width: 136px;
+    height: 50px;
+    border: black solid 2px;
+    background: #D35B3F;
+    transform: translateY(-30px);
+    color: white;
 }
-section#custom{
-    transform: translateY(-1211px) translateX(963px);
+input#search:hover{
+    background: rgb(224, 228, 0);
+    color: white;
+    -webkit-transition: linear .1s;
+    transition: linear .1s;
 }
-html{
-    background: #232526;
-    background: -webkit-linear-gradient(to right, #414345, #232526);
-    background: linear-gradient(to right, #414345, #232526);
-    font-family: 'Anton', sans-serif;
-}
-img.bape{
-    background-color: white;
-    border: 6px double white;
-}
+<<<<<<< HEAD:gallery.css
 .zoom {
     padding: 50px;
     background-color: green;
@@ -72,4 +78,11 @@ img.bape{
   }
 img.lv{
   background-color: white;
+=======
+p.description{
+    margin-left: 900px;
+    transform: translateY(-130px);
+    font-size: 45px;
+    color: white;
+>>>>>>> master:location.css
 }
