@@ -1,10 +1,10 @@
 html{
-  width: auto;
-  
-
+  width: 100%;
 }
 body{
-  background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(99, 99, 99)100%)fixed;
+  background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(73, 108, 119)100%)fixed;
+  width: auto;
+  margin: 0%;
   
  
 }
@@ -17,10 +17,11 @@ img#logo{
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     overflow: auto;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(89, 96, 98);
   }
   
   li {
@@ -32,7 +33,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 65px;
+    padding: 11px 97.5px;
     text-decoration: none;
   }
   li a:hover {
@@ -44,47 +45,66 @@ ul {
   #action{
     background-color: rgb(25, 161, 12);
   }
-  article{
+   article{
       display: block;
     background-color: rgb(235, 235, 235);
     text-align:center;
     box-shadow: 0px 0px 5px rgb(66, 66, 66);
     overflow: hidden;
     font-size: 26px;
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 17px;
     box-shadow: -2px 2px 20px black inset;
-    
    
 }
 a{
   text-decoration: none;
   color: black;
 }
-article {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 26px;
-  margin: 17px;
-  transition: 0.3s;
-}
 
-#collab:hover {
-  top: 150px;
-  background: url(offw.png);
+div.container {
+  background-color: rgb(253,250,241);
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 40px;
   
 }
+div.container:hover{
+  background: url(https://images.fineartamerica.com/images/artworkimages/medium/2/louis-vuitton-monogram-4-nikita-transparent.png) fixed;
+}
+div.color-overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background:  rgb(253,250,241);
+  opacity: 1;
+  position: absolute;
+  box-shadow: -2px 2px 20px black inset;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  z-index: 1;
+}
+.color-overlay:hover{
+  background: white;
+  opacity: .5;
+  transition: 1s ease-in-out;
+}
+
+
 
 
 
 footer{
-  width: 1340px;
+  width: auto;
   text-align: center;
   border-top: black 3px solid;
   font-weight: bolder;
-  transform: translateY(34px) translateX(-10px);
+ 
   background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
 }
