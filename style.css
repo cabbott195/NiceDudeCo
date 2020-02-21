@@ -14,7 +14,7 @@ img#logo{
   border-right: 1px black solid;
 
 }
-
+/*creates nav bar*/
 ul {
     list-style-type: none;
     margin-left: auto;
@@ -33,7 +33,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 97.5px;
+    padding: 11px 85px;
     text-decoration: none;
   }
   li a:hover {
