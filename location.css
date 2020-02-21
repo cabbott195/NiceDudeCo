@@ -1,0 +1,65 @@
+html{
+    background-color: #4e7b81;
+}
+h1{
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(43, 43, 43);
+}
+  li {
+    float: left;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 65px;
+    text-decoration: none;
+}
+  li a:hover {
+    background-color: rgb(20, 20, 20);
+}
+  li:last-child {
+    border-right: none;
+}
+#map{
+    width: 800px;
+    padding: 10px;
+    margin-top: 30px;
+}
+#maps{
+    height: 100px;
+}
+div#near{
+    margin-left: 900px;
+    transform: translateY(-80px);
+}
+input#search{
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 20px;
+    width: 136px;
+    height: 50px;
+    border: black solid 2px;
+    background: #D35B3F;
+    transform: translateY(-30px);
+    color: white;
+}
+input#search:hover{
+    background: rgb(224, 228, 0);
+    color: white;
+    -webkit-transition: linear .1s;
+    transition: linear .1s;
+}
+p.description{
+    margin-left: 900px;
+    transform: translateY(-130px);
+    font-size: 45px;
+    color: white;
+}
