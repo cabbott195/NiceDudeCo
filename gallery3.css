@@ -1,0 +1,92 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(43, 43, 43);
+  }
+  li {
+    float: left;
+    border-right: 1px solid rgb(196, 196, 196);
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 65px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(20, 20, 20);
+  }
+  li:last-child {
+    border-right: none;
+  }
+
+img.lv, img.bape, img.ow, img.supreme, img.basic, img.custom{
+    border: 6px outset white;
+    border-radius: 10px;
+}
+section#ow{
+    transform: translateX(480px) translateY(-305px)
+}
+section#bape{
+    transform: translateY(-610px) translateX(960px);
+}
+section#supreme{
+    transform: translateY(-603px) translateX(-5px);
+}
+section#basic{
+    transform: translateY(-907px) translateX(480px);
+}
+section#custom{
+    transform: translateY(-1211px) translateX(963px);
+}
+html{
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    font-family: 'Squada One';
+    background: url(wood2.png) fixed;
+}
+img.bape{
+    background-color: white;
+    border: 6px double white;
+}
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  img:hover {
+    transform: scale(1.5);
+  }
+  h1{
+    border: 10px outset black;
+    text-align: center;
+    font-size: 75px;
+    border-radius: 10px;
+    color: white;
+  }
+img.lv{
+  background-color: white;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: center;
+    right: center;
+    width: 100%;
+    background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    padding-top: 5px;
+
+}
+h2{
+    color: white;
+}
