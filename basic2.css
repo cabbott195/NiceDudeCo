@@ -58,7 +58,7 @@ div[id^="col"] {
      color: #828180;
  }
  html{
-    background: linear-gradient(#c7c5c4, #3d3d3d);
+    background: linear-gradient(#305e73,gray);
     height: 100%;
  }
  #col-1-6{
