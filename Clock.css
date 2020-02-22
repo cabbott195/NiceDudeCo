@@ -1,13 +1,19 @@
 html{
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background-image: url(ClockBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 article h1{
     text-align: center;
     font-size: 50px;
+    color: white;
 }
 body > h1{
   font-size: 65px;
   margin-left: 550px;
+  color: white;
 }
 div#demo{
     text-align: center;
@@ -15,6 +21,7 @@ div#demo{
     font-weight: bold;
     border-style: solid;
     border-width: thick;
+    border-radius: 20px;
     margin-left: 20px;
     width: 90%;
     transform: translateY(200px);
@@ -27,6 +34,7 @@ div#demo2{
     font-weight: bold;
     border-style: solid;
     border-width: thick;
+    border-radius: 20px;
     width: 90%;
     margin-left: 864px;
     transform: translateY(-361px);
@@ -55,7 +63,7 @@ ul {
   margin-right: auto;
   padding: 0;
   overflow: auto;
-  background-color: rgb(89, 96, 98);
+  background-color: #851d30;
 }
 
 li {
@@ -77,5 +85,5 @@ li:last-child {
   border-right: none;
 }
 button{
-  transform: translateX(600px);
+    transform: translateX(600px);
 }
