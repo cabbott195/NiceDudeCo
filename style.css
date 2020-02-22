@@ -55,7 +55,6 @@ ul {
     border-radius: 40px;
     margin: 17px;
     box-shadow: -2px 2px 20px black inset;
-   
 }
 a{
   text-decoration: none;
@@ -74,7 +73,7 @@ div.container {
   
 }
 div.container:hover{
-  background: url(https://images.fineartamerica.com/images/artworkimages/medium/2/louis-vuitton-monogram-4-nikita-transparent.png) fixed;
+  background: url(https://images.fineartamerica.com/images/artworkimages/medium/2/louis-vuitton-monogram-4-nikita-transparent.png) fixed ;
 }
 div.color-overlay {
   width: 100%;
