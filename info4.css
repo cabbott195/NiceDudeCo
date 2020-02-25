@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(80, 80, 80);
 }
   li{
     float: left;
@@ -56,7 +57,8 @@ p{
 }
 html{
     font-family: 'Fjalla One', sans-serif;   
-    background-image: url(carbon3.png);
+    background-image: url(wood4.png);
+    font-family: 'Patua One', serif;
 }
 header{
     background: white;

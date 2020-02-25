@@ -90,3 +90,7 @@ footer{
 h2{
     color: black;
 }
+button{
+  padding: none;
+  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+}

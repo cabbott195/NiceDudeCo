@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
 ul{
     list-style-type: none;
     margin: 0;
@@ -56,14 +57,15 @@ p{
 }
 html{
     font-family: 'Fjalla One', sans-serif;   
-    background-image: url(carbon3.png);
+    background-image: url(cube1.png);
+    font-family: 'Francois One', serif;
 }
 header{
     background: white;
     font-size: 20px;
 }
 h1.title{
-    color: white;
+    color: black;
     font-size: 80px;
 }
 h1.header{

@@ -1,24 +1,24 @@
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
     background-color: rgb(43, 43, 43);
-  }
-  li {
+}
+li{
     float: left;
     border-right: 1px solid rgb(196, 196, 196);
-  }
-  li a {
+}
+li a{
     display: block;
     color: white;
     text-align: center;
     padding: 11px 65px;
     text-decoration: none;
-  }
-  li a:hover {
+}
+  li a:hover{
     background-color: rgb(20, 20, 20);
-  }
+}
   li:last-child {
     border-right: none;
   }
@@ -89,4 +89,8 @@ footer{
 }
 h2{
     color: black;
+}
+button{
+  padding: none;
+  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
 }

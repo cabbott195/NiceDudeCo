@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,6 +16,7 @@ ul {
     text-align: center;
     padding: 11px 65px;
     text-decoration: none;
+    font-size: 23px;
   }
   li a:hover {
     background-color: rgb(20, 20, 20);
@@ -28,26 +30,25 @@ img.lv, img.bape, img.ow, img.supreme, img.basic, img.custom{
     border-radius: 10px;
 }
 section#ow{
-    transform: translateX(480px) translateY(-305px)
+    transform: translateY(-333.5px) translateX(480px)
 }
 section#bape{
-    transform: translateY(-610px) translateX(960px);
+    transform: translateY(-668px) translateX(960px);
 }
 section#supreme{
-    transform: translateY(-603px) translateX(-5px);
+    transform: translateY(-620px) translateX(-5px);
 }
 section#basic{
-    transform: translateY(-907px) translateX(480px);
+    transform: translateY(-952px) translateX(480px);
 }
 section#custom{
-    transform: translateY(-1211px) translateX(963px);
+    transform: translateY(-1285px) translateX(963px);
 }
 html{
     background: #232526;
     background: -webkit-linear-gradient(to right, #414345, #232526);
     background: linear-gradient(to right, #414345, #232526);
-    font-family: 'Anton', sans-serif;
-    /*background-image: url(marble.png);*/
+    font-family: 'Teko', serif;
 }
 img.bape{
     background-color: white;
@@ -70,7 +71,7 @@ img.bape{
     text-align: center;
     font-size: 75px;
     border-radius: 10px;
-    color: black;
+    color: whitesmoke;
   }
 img.lv{
   background-color: white;
@@ -88,5 +89,11 @@ footer{
 
 }
 h2{
-    color: black;
+    color: whitesmoke;
+    font-size: 30px;
+
+}
+button{
+  padding: none;
+  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
 }

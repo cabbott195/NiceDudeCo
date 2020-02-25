@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 ul{
     list-style-type: none;
     margin: 0;
@@ -56,18 +57,20 @@ p{
 }
 html{
     font-family: 'Fjalla One', sans-serif;   
-    background-image: url(carbon3.png);
+    background-image: url(whitetile.png);
+    font-family: 'Anton', serif;
 }
 header{
     background: white;
     font-size: 20px;
 }
 h1.title{
-    color: white;
+    color: black;
     font-size: 80px;
 }
 h1.header{
     font-size: 50px;
+    color: black;
 }
 footer{
     position: fixed;
