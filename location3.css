@@ -1,5 +1,5 @@
 html{
-    background-image: url(Wood.jpg);
+    background-image: url(metalbackground.jpg);
 }
 body > h1{
   margin-left: 550px;
@@ -10,7 +10,8 @@ body > h1{
 
 
 h1{
-    color: rgb(24, 22, 22);
+    color: rgb(255, 255, 255);
+    text-shadow: white 5px -5px 40px;
 }
 
 ul {
@@ -19,7 +20,7 @@ ul {
     margin-right: auto;
     padding: 0;
     overflow: auto;
-    background-color: rgb(89, 96, 98);
+    background-color: rgb(156, 155, 155);
 }
   
 li {
@@ -45,7 +46,8 @@ li:last-child {
     width: 800px;
     margin-top: 30px;
     border: groove 3px;
-    border: #D35B3F outset 3px;
+    border: #42728c outset 3px;
+
 }
 #maps{
     height: 100px;
@@ -63,15 +65,15 @@ input#search{
     border-radius: 20px;
     width: 146px;
     height: 55px;
-    border: rgb(11, 187, 172) outset 4px;
-    background: #D35B3F;
+    border: rgb(255, 255, 255) outset 4px;
+    background: #c9124f;
     transform: translateY(-30px);
     color: white;
 }
 
 input#search:hover{
-    background: rgb(224, 228, 0);
-    border: rgb(145, 54, 163) outset 4px;
+    background: rgb(41, 117, 31);
+    border: rgb(90, 84, 92) outset 4px;
     color: white;
     -webkit-transition: linear .1s;
     transition: linear .1s;
@@ -80,8 +82,8 @@ p.description{
     margin-left: 900px;
     transform: translateY(-130px);
     font-size: 45px;
-    color: rgb(0, 0, 0);
-    text-shadow: rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px ;
+    color: rgb(199, 194, 194);
+    text-shadow: #42728c 0px 0px 10px, #42728c 0px 0px 10px, #42728c 0px 0px 10px ;
 }
 
 button{

@@ -1,5 +1,5 @@
 html{
-    background-image: url(Wood.jpg);
+    background-image: url(worldmapbackground.jpg);
 }
 body > h1{
   margin-left: 550px;
@@ -19,7 +19,7 @@ ul {
     margin-right: auto;
     padding: 0;
     overflow: auto;
-    background-color: rgb(89, 96, 98);
+    background-color: #42728c;
 }
   
 li {
@@ -45,7 +45,8 @@ li:last-child {
     width: 800px;
     margin-top: 30px;
     border: groove 3px;
-    border: #D35B3F outset 3px;
+    border: #42728c outset 3px;
+    opacity: .8;
 }
 #maps{
     height: 100px;
@@ -64,7 +65,7 @@ input#search{
     width: 146px;
     height: 55px;
     border: rgb(11, 187, 172) outset 4px;
-    background: #D35B3F;
+    background: #c4e603;
     transform: translateY(-30px);
     color: white;
 }
@@ -81,7 +82,7 @@ p.description{
     transform: translateY(-130px);
     font-size: 45px;
     color: rgb(0, 0, 0);
-    text-shadow: rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px ;
+    text-shadow: #42728c 0px 0px 10px, #42728c 0px 0px 10px, #42728c 0px 0px 10px ;
 }
 
 button{
