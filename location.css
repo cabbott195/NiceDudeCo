@@ -83,7 +83,3 @@ p.description{
     color: rgb(0, 0, 0);
     text-shadow: rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px ;
 }
-
-button{
-    transform: translateX(600px);
-}
