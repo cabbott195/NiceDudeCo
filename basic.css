@@ -48,11 +48,13 @@ div[id^="col"] {
     box-sizing: border-box;
  }
  a{
-    color: white;
+    color: #3b6b7a;
     text-decoration: none;
     font-family: 'Mansalva', cursive;
     font-size: 1.5em;
-    
+ }
+ a:active{
+    color: deeppink;
  }
  a:hover{
      color: #c7c5c4;

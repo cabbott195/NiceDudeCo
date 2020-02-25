@@ -1,198 +1,110 @@
 html{
-  width: 100%;
-}
-body{
-  background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(2, 79, 141)100%)fixed;
-  width: auto;
-  margin: 0%;
-  
- 
-}
-img#logo{
-  transform: translateX(80px);
- 
-
-}
-/*creates nav bar*/
-ul {
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    overflow: auto;
-    background-color: rgb(89, 96, 98);
-    transform: translateY(-16px);
+    width: 100%;
   }
-  
-  li {
-    float: left;
-    border-right: 1px solid rgb(196, 196, 196);
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 11px 85px;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color: rgb(20, 20, 20);
-  }
-  li:last-child {
-    border-right: none;
-  }
-  #action{
-    background-color: rgb(25, 161, 12);
-  }
-   article{
-      display: block;
-    background-color: rgb(235, 235, 235);
-    text-align:center;
-    box-shadow: 0px 0px 5px rgb(66, 66, 66);
-    overflow: hidden;
-    font-size: 26px;
-    border-radius: 40px;
-    margin: 17px;
-    box-shadow: -2px 2px 20px black inset;
+  body{
+    background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(2, 79, 141)100%)fixed;
+    width: auto;
+    margin: 0%;
+    
    
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-
-div.container {
-  background-color: rgb(253,250,241);
-  color: black;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border-radius: 40px;
+  }
+  img#logo{
+    transform: translateX(19px);
+    border-top: 1px black solid;
+    border-right: 1px black solid;
   
-}
-div.container:hover{
-  background: url(https://wallpaperplay.com/walls/full/7/8/0/15004.jpg) fixed center;
-}
-div.color-overlay {
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  background:  rgb(253,250,241);
-  opacity: 1;
-  position: absolute;
-  box-shadow: -2px 2px 20px black inset;
-}
-h1{
-  font-family: 'Pacifico', cursive;
-  font-size: 50px;
-  z-index: 1;
-}
-h2{
-  text-align: center;
-  font-size: 50px;
-  border-top: black 3px double;
-  border-bottom: black 3px double;
-}
-.color-overlay:hover{
-  background: white;
-  opacity: .5;
-  transition: 1s ease-in-out;
-}
-div.bass {
-background-color: rgb(253,250,241);
-color: black;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-border-radius: 40px;
-
-}
-div.bass:hover{
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtnDfPtuPSVJKxVa5HbsLZT4rH1h9l3M-HafPtRVnP3enxKHvT) fixed ;
-}
-div.treasure {
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  background:  rgb(253,250,241);
-  opacity: 1;
-  position: absolute;
-  box-shadow: -2px 2px 20px black inset;
-}
-.treasure:hover{
-  background: white;
-  opacity: .2;
-  transition: 1s ease-in-out;
-}
-
-button{
-  outline: none;
-  padding: 25px;
-  margin-right: 140px;
-  margin-left: 120px;
-  border-radius: 29px;
-  font-size: 10px;
-  color: white;
-  background-color: rgb(54, 161, 32);
-  font-weight: bold;
-}
-button#king:hover{
-  transform: rotateZ(-180deg);
-}
-
-button#queen:hover{
-  box-shadow: inset 0 0 0 10px #51a6eb;
-}
-#joker span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-#joker span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#joker:hover span {
-  padding-right: 25px;
-}
-
-#joker:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-button#ace{
-  box-shadow: 0 9px rgb(20, 20, 20);
-}
-button#ace:active{
-  background-color: #3e8e41;
-  box-shadow: 0 5px rgb(43, 42, 42);
-  transform: translateY(4px);
-}
-button#ace:hover{
-  background-color: #3e8e41
-}
-
-
-
-
-
-footer{
-  width: auto;
-  text-align: center;
-  border-top: black 3px solid;
-  font-weight: bolder;
- 
-  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
-}
+  }
+  /*creates nav bar*/
+  ul {
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      overflow: auto;
+      background-color: rgb(89, 96, 98);
+    }
+    
+    li {
+      float: left;
+      border-right: 1px solid rgb(196, 196, 196);
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 11px 85px;
+      text-decoration: none;
+    }
+    li a:hover {
+      background-color: rgb(20, 20, 20);
+    }
+    li:last-child {
+      border-right: none;
+    }
+    #action{
+      background-color: rgb(25, 161, 12);
+    }
+     article{
+        display: block;
+      background-color: rgb(235, 235, 235);
+      text-align:center;
+      box-shadow: 0px 0px 5px rgb(66, 66, 66);
+      overflow: hidden;
+      font-size: 26px;
+      border-radius: 40px;
+      margin: 17px;
+      box-shadow: -2px 2px 20px black inset;
+     
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  div.container {
+    background-color: rgb(253,250,241);
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 40px;
+    
+  }
+  div.container:hover{
+    background: url(https://wallpaperplay.com/walls/full/7/8/0/15004.jpg) fixed center;
+  }
+  div.color-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background:  rgb(253,250,241);
+    opacity: 1;
+    position: absolute;
+    box-shadow: -2px 2px 20px black inset;
+  }
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    z-index: 1;
+  }
+  .color-overlay:hover{
+    background: white;
+    opacity: .5;
+    transition: 1s ease-in-out;
+  }
+  
+  
+  
+  
+  
+  footer{
+    width: auto;
+    text-align: center;
+    border-top: black 3px solid;
+    font-weight: bolder;
+   
+    background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+  }
