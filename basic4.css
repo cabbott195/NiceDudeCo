@@ -12,10 +12,10 @@
 }
 
 h1{
-    font-family: 'Mansalva', cursive;
+    font-family: monospace;
     text-align: center;
     margin-top: 10px;
-    color: #3b6b7a;
+    color: white;
 }
 nav{
     text-align: center;
@@ -48,32 +48,50 @@ div[id^="col"] {
     box-sizing: border-box;
  }
  a{
-    color: white;
+    color: #a0a39b;
     text-decoration: none;
-    font-family: 'Mansalva', cursive;
+    font-family: monospace;
     font-size: 1.5em;
     
  }
  a:hover{
-     color: #c7c5c4;
+     color: #71959c;
  }
  html{
-    background: linear-gradient(#c7c5c4, #3d3d3d) fixed;
+    background: linear-gradient(#71959c,#323331)fixed;
     height: 100%;
  }
  #col-1-6{
 background-color: black;
-border-right: 2px white solid;
+border-right: 2px #a0a39b solid;
 text-align: center;
  }
 div.logo{
     text-align: center;
 }
 button{
+    background-color: #323331;
     margin-left: 20px;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 15px;
     font-size: 1.5em;
+    color: white;
+    font-family: monospace;
+}
+p{
+    font-size: 2em;
+    color: white;
+    font-family: monospace;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: center;
+    right: center;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    padding-top: 5px;
 }

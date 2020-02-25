@@ -5,13 +5,13 @@ body{
   background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(73, 108, 119)100%)fixed;
   width: auto;
   margin: 0%;
-  
- 
+}
+header{
+  background: url();
 }
 img#logo{
-  transform: translateX(19px);
-  border-top: 1px black solid;
-  border-right: 1px black solid;
+  transform: translateX(80px);
+ 
 
 }
 /*creates nav bar*/
@@ -22,6 +22,7 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: rgb(89, 96, 98);
+    transform: translateY(-16px);
   }
   
   li {
@@ -33,7 +34,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 85px;
+    padding: 9px 85px;
     text-decoration: none;
   }
   li a:hover {
@@ -55,7 +56,6 @@ ul {
     border-radius: 40px;
     margin: 17px;
     box-shadow: -2px 2px 20px black inset;
-   
 }
 a{
   text-decoration: none;
@@ -74,7 +74,7 @@ div.container {
   
 }
 div.container:hover{
-  background: url(https://images.fineartamerica.com/images/artworkimages/medium/2/louis-vuitton-monogram-4-nikita-transparent.png) fixed;
+  background: url(https://images.fineartamerica.com/images/artworkimages/medium/2/louis-vuitton-monogram-4-nikita-transparent.png) fixed ;
 }
 div.color-overlay {
   width: 100%;
@@ -90,14 +90,169 @@ h1{
   font-size: 50px;
   z-index: 1;
 }
+h2{
+  text-align: center;
+  font-size: 50px;
+  border-top: white 10px double;
+  border-bottom: white 10px double;
+}
 .color-overlay:hover{
   background: white;
   opacity: .5;
   transition: 1s ease-in-out;
 }
 
+div.bass {
+  background-color: rgb(253,250,241);
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 40px;
+  
+}
+div.bass:hover{
+  background: url(https://racecity.wpengine.com/wp-content/uploads/2017/11/diamond-plate.jpg) fixed ;
+}
+div.treasure {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background:  rgb(253,250,241);
+  opacity: 1;
+  position: absolute;
+  box-shadow: -2px 2px 20px black inset;
+}
+.treasure:hover{
+  background: white;
+  opacity: .5;
+  transition: 1s ease-in-out;
+}
+section#cats{
+  background-color: black;
+  color: rgb(73, 133, 151);
+}
+section#kings{
+  background-color: white ;
+}
+button{
+  outline: none;
+  padding: 25px;
+  margin-right: 120px;
+  margin-left: 120px;
+  border-radius: 29px;
+  font-size: 13px;
+  color: white;
+  background-color: rgb(54, 161, 32);
+  font-weight: bold;
+}
+#king span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+#king span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
+#king:hover span {
+  padding-right: 25px;
+ 
+}
+
+#king:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+#queen span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#queen span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#queen:hover span {
+  padding-right: 25px;
+ 
+}
+
+#queen:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+#joker span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#joker span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#joker:hover span {
+  padding-right: 25px;
+ 
+}
+
+#joker:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+#ace span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#ace span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#ace:hover span {
+  padding-right: 25px;
+ 
+}
+
+#ace:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
 
 
 footer{

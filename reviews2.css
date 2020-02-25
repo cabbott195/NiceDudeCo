@@ -20,7 +20,8 @@
     margin: 10px;
 }
 h1{
-  text-align: center;  
+  text-align: center;
+  color: ;  
 }
 nav {
     text-align: center;
@@ -66,6 +67,9 @@ div.row {
     text-decoration: none;
     font-size: 1.5em;
  }
+ a:active{
+    color: #84856c;
+ }
  a:hover{
      color: #3b6b7a;
  }
@@ -79,6 +83,12 @@ div.row {
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
 }
-#col-1-1{
-    text-align: left;
+button{
+    margin-left: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    font-size: 1.5em;
+
 }

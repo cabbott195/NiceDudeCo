@@ -29,4 +29,3 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "Now Available";
   }
 }, 1000);
-

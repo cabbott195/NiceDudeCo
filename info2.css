@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 ul{
     list-style-type: none;
     margin: 0;
@@ -56,13 +57,31 @@ p{
 }
 html{
     font-family: 'Fjalla One', sans-serif;   
-    background-image: url(carbonimg.png);
+    background-image: url(whitetile.png);
+    font-family: 'Anton', serif;
 }
 header{
     background: white;
+    font-size: 20px;
 }
 h1.title{
-    color: white;
+    color: black;
+    font-size: 80px;
+}
+h1.header{
+    font-size: 50px;
+    color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: center;
+    right: center;
+    width: 100%;
+    background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    padding-top: 5px;
 }
 button{
     padding: none;

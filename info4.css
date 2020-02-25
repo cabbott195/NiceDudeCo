@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(80, 80, 80);
 }
   li{
     float: left;
@@ -56,13 +57,30 @@ p{
 }
 html{
     font-family: 'Fjalla One', sans-serif;   
-    background-image: url(carbonimg.png);
+    background-image: url(darkwood.png);
+    font-family: 'Patua One', serif;
 }
 header{
     background: white;
+    font-size: 20px;
 }
 h1.title{
     color: white;
+    font-size: 80px;
+}
+h1.header{
+    font-size: 50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: center;
+    right: center;
+    width: 100%;
+    background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    padding-top: 5px;
 }
 button{
     padding: none;
