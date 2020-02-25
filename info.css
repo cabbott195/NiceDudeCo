@@ -56,12 +56,7 @@ p{
 }
 html{
     font-family: 'Fjalla One', sans-serif;   
-<<<<<<< HEAD
-    background-image: url(carbon3.png);
-=======
-    background-image: url(steel.png);
-
->>>>>>> master
+    background-image: url(carbonimg.png);
 }
 header{
     background: white;
