@@ -308,6 +308,7 @@ footer{
   text-align: center;
   border-top: black 3px solid;
   font-weight: bolder;
+}
  
   
   
@@ -316,7 +317,7 @@ footer{
 
 
 @keyframes smooth{
-0%{background-color:blue ;}
+0%{background-color: blue ;}
 20%{background-color: rgb(79, 79, 224) ;}
 40%{background-color:rgb(15, 125, 168) ;}
 60%{background-color:rgb(4, 247, 255) ;}
