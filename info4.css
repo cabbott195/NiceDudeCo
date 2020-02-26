@@ -59,6 +59,7 @@ html{
     font-family: 'Fjalla One', sans-serif;   
     background-image: url(darkwood.png);
     font-family: 'Patua One', serif;
+    width: 100%;
 }
 header#header{
     background: white;

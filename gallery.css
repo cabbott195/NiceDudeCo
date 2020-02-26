@@ -1,3 +1,4 @@
+/*Footer styles*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -22,7 +23,7 @@ li a{
   li:last-child {
     border-right: none;
   }
-
+/*Changes image styles*/
 img.lv, img.bape, img.ow, img.supreme, img.basic, img.custom{
     border: 6px outset white;
     border-radius: 10px;
@@ -42,6 +43,7 @@ section#basic{
 section#custom{
     transform: translateY(-1211px) translateX(963px);
 }
+/*Page styles*/
 html{
     background: #232526;
     background: -webkit-linear-gradient(to right, #414345, #232526);
@@ -53,15 +55,17 @@ img.bape{
     background-color: white;
     border: 6px double white;
 }
-.zoom{
+/*Expands images on hover*/
+img#img.zoom{
     padding: 50px;
-    background-color: green;
     transition: transform .2s; /* Animation */
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
-  
+  img#logo:hover{
+transition: none;
+  }
 img:hover{
     transform: scale(1.5);
 }
@@ -75,6 +79,7 @@ h1{
 img.lv{
   background-color: white;
 }
+/*Makes a floating footer*/
 footer{
     position: fixed;
     bottom: 0;
@@ -90,6 +95,7 @@ footer{
 h2{
     color: black;
 }
+/*Changes button styles*/
 button{
   padding: none;
   background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);

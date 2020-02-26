@@ -1,3 +1,4 @@
+/*footer styles*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -22,14 +23,14 @@ ul{
   li:last-child{
     border-right: none;
 }
-
+/*Makes the header center and fit better*/
 #header {
     max-width: 960px;
     margin: auto;
     padding: 10px;
     text-align: center;
   }
-  
+/*Slide In Animation*/
 h1{
     text-align: center;
     animation-name: heading;
@@ -54,6 +55,7 @@ p{
 @keyframes paragraph{
     0% {transform: translateX(-1000px)}
 }
+/*Changes font and background image*/
 html{
     font-family: 'Fjalla One', sans-serif;   
     background-image: url(carbonimg.png);
@@ -65,6 +67,7 @@ header#header{
 h1.title{
     color: white;
 }
+/*Makes my footer always stay at the bottom*/
 footer{
     position: fixed;
     bottom: 0;
@@ -76,6 +79,7 @@ footer{
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
 }
+/*Changes the color of my buttons*/
 button{
     padding: none;
     background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
