@@ -5,6 +5,9 @@ html{
     background-position: center;
     background-size: cover;
 }
+
+
+
 article h1{
     text-align: center;
     font-size: 60px;
@@ -19,6 +22,7 @@ body > h1{
   text-shadow: #c79f9f 0px 0px 10px, #c79f9f 0px 0px 10px, #c79f9f 0px 0px 10px, #c79f9f 0px 0px 10px;
   
 }
+
 div#demo{
     text-align: center;
     font-size: 140px;
