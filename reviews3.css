@@ -68,7 +68,7 @@ div.row {
     font-size: 1.5em;
  }
  a:hover{
-     color: #3b6b7a;
+     color: white;
  }
  footer{
     position: fixed;
@@ -83,4 +83,6 @@ div.row {
 #col-1-1{
     text-align: left;
 }
- 
+button{
+    background-color: ;
+}
