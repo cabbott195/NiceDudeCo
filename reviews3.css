@@ -35,7 +35,7 @@ html{
 }
 #col-1-6{
     background-color: black;
-    border-right: 2px white solid;
+    border-right: 2px #6770ed solid;
     text-align: center;
 }
 div.row {
@@ -63,12 +63,9 @@ div.row {
     box-sizing: border-box;
  }
  a{
-    color: white;
+    color: #6770ed;
     text-decoration: none;
     font-size: 1.5em;
- }
- a:active{
-    color: #84856c;
  }
  a:hover{
      color: #3b6b7a;

@@ -36,7 +36,7 @@ html{
 }
 #col-1-6{
     background-color: black;
-    border-right: 2px white solid;
+    border-right: 2px #204973 solid;
     text-align: center;
 }
 div.row {
@@ -64,7 +64,7 @@ div.row {
     box-sizing: border-box;
  }
  a{
-    color: white;
+    color: #204973;
     text-decoration: none;
     font-size: 1.5em;
  }
