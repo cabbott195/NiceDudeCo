@@ -7,7 +7,7 @@ body{
   margin: 0%;
 }
 header{
-  background: url();
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmbx-oqzas227coICG6BnVCWZs1Mjj5vFLWv9dICVk_zfRUYiY);
 }
 img#logo{
   transform: translateX(80px);
@@ -19,10 +19,12 @@ ul {
     list-style-type: none;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0;
     overflow: auto;
-    background-color: rgb(89, 96, 98);
-    transform: translateY(-16px);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgb(89, 96, 98) 100%);
+    
   }
   
   li {
@@ -34,17 +36,25 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 9px 85px;
+    padding: 9px 97.5px;
     text-decoration: none;
+    transition: .8s;
   }
   li a:hover {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(114, 111, 111);
   }
   li:last-child {
     border-right: none;
   }
+  li{
+    background-color: rgb(0, 0, 0);
+  }
   #action{
-    background-color: rgb(25, 161, 12);
+    background-color: rgb(13, 80, 119) ;
+    transition: .9s;
+  }
+  #action:hover{
+    background-color: rgb(156, 156, 156);
   }
    article{
       display: block;
@@ -80,7 +90,7 @@ div.color-overlay {
   width: 100%;
   height: 100%;
   border-radius: 40px;
-  background:  rgb(253,250,241);
+  background:  rgb(253, 247, 230);
   opacity: 1;
   position: absolute;
   box-shadow: -2px 2px 20px black inset;
@@ -95,6 +105,7 @@ h2{
   font-size: 50px;
   border-top: white 10px double;
   border-bottom: white 10px double;
+  margin: 0%;
 }
 .color-overlay:hover{
   background: white;
@@ -120,7 +131,7 @@ div.treasure {
   width: 100%;
   height: 100%;
   border-radius: 40px;
-  background:  rgb(253,250,241);
+  background:  rgb(253, 247, 230);
   opacity: 1;
   position: absolute;
   box-shadow: -2px 2px 20px black inset;
@@ -132,10 +143,12 @@ div.treasure {
 }
 section#cats{
   background-color: black;
-  color: rgb(73, 133, 151);
+  color: rgb(98, 169, 190);
 }
 section#kings{
-  background-color: white ;
+  background: linear-gradient(180deg, rgb(89, 96, 98) 0%, rgba(255,253,245,1) 100%);
+padding-top: 10px;
+
 }
 button{
   outline: none;
@@ -147,6 +160,10 @@ button{
   color: white;
   background-color: rgb(54, 161, 32);
   font-weight: bold;
+  transition: .5s;
+}
+button:hover{
+  background-color: rgb(24, 218, 24);
 }
 #king span {
   cursor: pointer;
@@ -166,6 +183,7 @@ button{
 
 #king:hover span {
   padding-right: 25px;
+  
  
 }
 
