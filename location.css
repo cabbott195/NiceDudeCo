@@ -1,6 +1,9 @@
+/*puts image on background*/
 html{
     background-image: url(Wood.jpg);
 }
+
+/*centers the header*/
 body > h1{
   margin-left: 550px;
   font-size: 65px;
@@ -13,6 +16,7 @@ h1{
     color: rgb(24, 22, 22);
 }
 
+/*gets rid of bullet points on nav bar*/
 ul {
     list-style-type: none;
     margin-left: auto;
@@ -26,7 +30,7 @@ li {
     float: left;
     border-right: 1px solid rgb(196, 196, 196);
 }
-  
+/*centers the text*/
 li a {
     display: block;
     color: white;
@@ -34,6 +38,8 @@ li a {
     padding: 11px 85px;
     text-decoration: none;
 }
+
+/*changes color when hover*/
 li a:hover {
     background-color: rgb(20, 20, 20);
 }
@@ -41,6 +47,7 @@ li:last-child {
     border-right: none;
 }
 
+/*edits size of website*/
 #map{
     width: 800px;
     margin-top: 30px;
@@ -83,10 +90,11 @@ p.description{
     color: rgb(0, 0, 0);
     text-shadow: rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px ;
 }
-
+/*moves button to center of page*/
 button{
     transform: translateX(600px);
 }
+/*makes the footer visable*/
 footer{
     width: auto;
     text-align: center;
