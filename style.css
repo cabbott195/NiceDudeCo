@@ -96,6 +96,7 @@ div.color-overlay {
   box-shadow: -2px 2px 20px black inset;
 }
 h1{
+  text-shadow: 5px 5px rgb(122, 120, 120);
   font-family: 'Pacifico', cursive;
   font-size: 50px;
   z-index: 1;
@@ -141,6 +142,34 @@ div.treasure {
   opacity: .5;
   transition: 1s ease-in-out;
 }
+div.sass {
+  background-color: rgb(253,250,241);
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 40px;
+  
+}
+div.sass:hover{
+  animation: smooth 10s infinite;
+}
+div.mass {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background:  rgb(253, 247, 230);
+  opacity: 1;
+  position: absolute;
+  box-shadow: -2px 2px 20px black inset;
+}
+.mass:hover{
+  background: white;
+  opacity: .1;
+  transition: 1.5s ease-in-out;
+}
 section#cats{
   background-color: black;
   color: rgb(98, 169, 190);
@@ -150,6 +179,7 @@ section#kings{
 padding-top: 10px;
 
 }
+
 button{
   outline: none;
   padding: 25px;
@@ -280,4 +310,17 @@ footer{
   font-weight: bolder;
  
   background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+}
+
+
+
+
+@keyframes smooth{
+0%{background-color:blue ;}
+20%{background-color: rgb(79, 79, 224) ;}
+40%{background-color:rgb(15, 125, 168) ;}
+60%{background-color:rgb(4, 247, 255) ;}
+80%{background-color: rgb(18, 194, 106);}
+100%{background-color:rgb(10, 240, 60) ;}
+
 }
