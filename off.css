@@ -4,8 +4,8 @@ html{
 }
 body{
   background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(107, 124, 129)100%)fixed;
-  width: auto;
-  margin: 0%;
+  width: 98%;
+  margin: 12px;
 }
 header{
   background: url(https://static.vecteezy.com/system/resources/previews/000/106/939/original/free-grey-camouflage-vector.jpg);
@@ -37,9 +37,9 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 9px 95px;
+    padding: 9px 93px;
     text-decoration: none;
-    transition: 5s;
+    transition: .2s;
   }
   li a:hover {
     background: linear-gradient(180deg, rgb(13, 13, 14) 0%, rgb(89, 96, 98) 100%)
@@ -183,8 +183,8 @@ padding-top: 10px;
 button{
   outline: none;
   padding: 25px;
-  margin-right: 120px;
-  margin-left: 120px;
+  margin-right: 100px;
+  margin-left: 110px;
   border-radius: 29px;
   font-size: 13px;
   color: white;
@@ -309,7 +309,7 @@ footer{
   border-top: black 3px solid;
   font-weight: bolder;
  
-  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+  
 }
 
 

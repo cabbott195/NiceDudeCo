@@ -4,8 +4,8 @@ html{
 }
 body{
   background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(180, 125, 123)100%)fixed;
-  width: auto;
-  margin: 0%;
+  width: 98%;
+  margin: 12px;
 }
 header{
   background: url(camoback.png);
@@ -37,9 +37,9 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 9px 95px;
+    padding: 9px 94px;
     text-decoration: none;
-    transition: .8s;
+    transition: .2s;
   }
   li a:hover {
     background-color: rgb(114, 111, 111);
@@ -181,8 +181,8 @@ padding-top: 10px;
 button{
   outline: none;
   padding: 25px;
-  margin-right: 120px;
-  margin-left: 120px;
+  margin-right: 100px;
+  margin-left: 110px;
   border-radius: 29px;
   font-size: 13px;
   color: white;
@@ -307,7 +307,7 @@ footer{
   border-top: black 3px solid;
   font-weight: bolder;
  
-  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+  
 }
 
 

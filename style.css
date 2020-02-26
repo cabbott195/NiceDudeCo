@@ -3,8 +3,8 @@ html{
 }
 body{
   background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(73, 108, 119)100%)fixed;
-  width: auto;
-  margin: 0%;
+  width: 98%;
+  margin: 12px;
 }
 header{
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmbx-oqzas227coICG6BnVCWZs1Mjj5vFLWv9dICVk_zfRUYiY);
@@ -36,7 +36,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 9px 96px;
+    padding: 9px 95px;
     text-decoration: none;
     transition: .8s;
   }
@@ -64,7 +64,7 @@ ul {
     overflow: hidden;
     font-size: 26px;
     border-radius: 40px;
-    margin: 17px;
+    margin: 20px;
     box-shadow: -2px 2px 20px black inset;
 }
 a{
@@ -183,8 +183,8 @@ padding-top: 10px;
 button{
   outline: none;
   padding: 25px;
-  margin-right: 120px;
-  margin-left: 120px;
+  margin-right: 100px;
+  margin-left: 110px;
   border-radius: 29px;
   font-size: 13px;
   color: white;
@@ -304,13 +304,13 @@ button:hover{
 
 
 footer{
-  width: auto;
+  width: 100%;
   text-align: center;
   border-top: black 3px solid;
   font-weight: bolder;
  
-  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
-}
+  
+  
 
 
 
