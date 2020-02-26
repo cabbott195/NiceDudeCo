@@ -72,7 +72,7 @@ div.row {
     color: #84856c;
  }
  a:hover{
-     color: #3b6b7a;
+     color: gray;
  }
  footer{
     position: fixed;
