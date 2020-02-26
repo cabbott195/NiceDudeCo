@@ -12,17 +12,10 @@
 }
 
 h1{
-<<<<<<< Updated upstream
     font-family: fantasy;
     text-align: center;
     margin-top: 10px;
     color: black;
-=======
-    font-family: 'Mansalva', cursive;
-    text-align: center;
-    margin-top: 10px;
-    color: #3b6b7a;
->>>>>>> Stashed changes
 }
 nav{
     text-align: center;
@@ -55,56 +48,35 @@ div[id^="col"] {
     box-sizing: border-box;
  }
  a{
-<<<<<<< Updated upstream
     color: #6fa2b8;
     text-decoration: none;
     font-family: fantasy;
-=======
-    color: white;
-    text-decoration: none;
-    font-family: 'Mansalva', cursive;
->>>>>>> Stashed changes
     font-size: 1.5em;
     
  }
  a:hover{
-<<<<<<< Updated upstream
      color: gray;
  }
  html{
     background: linear-gradient(gray,#3b5866)fixed;
-=======
-     color: #828180;
- }
- html{
-    background: linear-gradient(#305e73,gray);
->>>>>>> Stashed changes
     height: 100%;
  }
  #col-1-6{
 background-color: black;
-<<<<<<< Updated upstream
 border-right: 2px #6fa2b8 solid;
-=======
-border-right: 2px white solid;
->>>>>>> Stashed changes
 text-align: center;
  }
 div.logo{
     text-align: center;
 }
 button{
-<<<<<<< Updated upstream
     background-color: #273942;
-=======
->>>>>>> Stashed changes
     margin-left: 20px;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 15px;
     font-size: 1.5em;
-<<<<<<< Updated upstream
     color: white;
     font-family: fantasy;
 }
@@ -122,6 +94,4 @@ footer{
     text-align: center;
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
-=======
->>>>>>> Stashed changes
 }

@@ -21,7 +21,7 @@
 }
 h1{
   text-align: center;
-  color: ;  
+  color: black;  
 }
 nav {
     text-align: center;
@@ -29,6 +29,7 @@ nav {
 html{
     background:linear-gradient(#3b6b7a,gray);
     height: 100%;
+    background-image: url(background1.png);
 }
 #col-1-1{
     text-align: center;
@@ -83,12 +84,6 @@ div.row {
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
 }
-button{
-    margin-left: 20px;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 15px;
-    font-size: 1.5em;
-
+#col-1-1{
+    text-align: left;
 }

@@ -12,7 +12,7 @@
 }
 
 h1{
-    font-family: monospace;
+    font-family: sans-serif;
     text-align: center;
     margin-top: 10px;
     color: white;
@@ -50,7 +50,7 @@ div[id^="col"] {
  a{
     color: #a0a39b;
     text-decoration: none;
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 1.5em;
     
  }
@@ -78,12 +78,12 @@ button{
     border-radius: 15px;
     font-size: 1.5em;
     color: white;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 p{
     font-size: 2em;
     color: white;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 footer{
     position: fixed;
