@@ -36,7 +36,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 9px 97.5px;
+    padding: 9px 96px;
     text-decoration: none;
     transition: .8s;
   }
@@ -96,7 +96,7 @@ div.color-overlay {
   box-shadow: -2px 2px 20px black inset;
 }
 h1{
-  text-shadow: 5px 5px rgb(122, 120, 120);
+  text-shadow: 2px 2px rgb(122, 120, 120);
   font-family: 'Pacifico', cursive;
   font-size: 50px;
   z-index: 1;
