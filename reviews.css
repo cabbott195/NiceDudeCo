@@ -82,3 +82,6 @@ div.row {
 #col-1-1{
     text-align: left;
 }
+button{
+    background:linear-gradient(#3b6b7a,gray)
+}
