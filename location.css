@@ -1,90 +1,87 @@
 html{
-    background-color: #4e7b81;
+    background-image: url(Wood.jpg);
 }
+body > h1{
+  margin-left: 550px;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+
+
 h1{
-    color: white;
+    color: rgb(24, 22, 22);
 }
+
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     overflow: auto;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(89, 96, 98);
 }
-  li {
+  
+li {
     float: left;
     border-right: 1px solid rgb(196, 196, 196);
 }
-  li a {
+  
+li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 65px;
+    padding: 11px 85px;
     text-decoration: none;
 }
-  li a:hover {
+li a:hover {
     background-color: rgb(20, 20, 20);
 }
-  li:last-child {
+li:last-child {
     border-right: none;
 }
+
 #map{
     width: 800px;
-    padding: 10px;
     margin-top: 30px;
+    border: groove 3px;
+    border: #D35B3F outset 3px;
 }
 #maps{
     height: 100px;
+    padding: 10px;
 }
+
 div#near{
     margin-left: 900px;
     transform: translateY(-80px);
 }
+
 input#search{
     margin: 10px;
     font-size: 40px;
     border-radius: 20px;
-    width: 136px;
-    height: 50px;
-    border: black solid 2px;
+    width: 146px;
+    height: 55px;
+    border: rgb(11, 187, 172) outset 4px;
     background: #D35B3F;
     transform: translateY(-30px);
     color: white;
 }
+
 input#search:hover{
     background: rgb(224, 228, 0);
+    border: rgb(145, 54, 163) outset 4px;
     color: white;
     -webkit-transition: linear .1s;
     transition: linear .1s;
 }
-<<<<<<< HEAD:gallery.css
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-  }
-  
-  img:hover {
-    transform: scale(1.5);
-  }
-  h1{
-    border: 10px outset black;
-    text-align: center;
-    font-size: 75px;
-    border-radius: 10px;
-  }
-img.lv{
-  background-color: white;
-=======
 p.description{
     margin-left: 900px;
     transform: translateY(-130px);
     font-size: 45px;
-    color: white;
->>>>>>> master:location.css
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px, rgb(216, 125, 105) 0px 0px 10px ;
 }
 
 button{
