@@ -1,15 +1,18 @@
 html{
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(86, 154, 199)100%)fixed;
+  background: radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(107, 124, 129)100%)fixed;
   width: auto;
   margin: 0%;
-  
- 
+}
+header{
+  background: url(https://static.vecteezy.com/system/resources/previews/000/106/939/original/free-grey-camouflage-vector.jpg);
 }
 img#logo{
   transform: translateX(80px);
+ 
 
 }
 /*creates nav bar*/
@@ -17,32 +20,42 @@ ul {
     list-style-type: none;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0;
     overflow: auto;
-    background-color: rgb(89, 96, 98);
-    transform: translateY(-16px);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgb(89, 96, 98) 100%);
+    
   }
   
   li {
     float: left;
-    border-right: 1px solid rgb(196, 196, 196);
+    border-right: 1px solid rgb(196, 196, 196); 
   }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 85px;
+    padding: 9px 95px;
     text-decoration: none;
+    transition: 5s;
   }
   li a:hover {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(180deg, rgb(13, 13, 14) 0%, rgb(89, 96, 98) 100%)
   }
   li:last-child {
     border-right: none;
   }
+  li{
+    background-color:rgb(13, 80, 119) ;
+  }
   #action{
-    background-color: rgb(25, 161, 12);
+    background-color: rgb(10, 35, 255) ;
+    transition: .9s;
+  }
+  #action:hover{
+    background-color: rgb(156, 156, 156);
   }
    article{
       display: block;
@@ -54,7 +67,6 @@ ul {
     border-radius: 40px;
     margin: 17px;
     box-shadow: -2px 2px 20px black inset;
-   
 }
 a{
   text-decoration: none;
@@ -85,15 +97,16 @@ div.color-overlay {
   box-shadow: -2px 2px 20px black inset;
 }
 h1{
-  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px rgb(10, 223, 238);
   font-size: 50px;
   z-index: 1;
 }
 h2{
   text-align: center;
   font-size: 50px;
-  border-top: black 3px double;
-  border-bottom: black 3px double;
+  border-top: white 10px double;
+  border-bottom: white 10px double;
+  margin: 0%;
 }
 .color-overlay:hover{
   background: white;
@@ -129,24 +142,113 @@ div.treasure {
   transition: 1s ease-in-out;
 }
 
+div.sass {
+  background-color: rgb(253,250,241);
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 40px;
+  
+}
+div.sass:hover{
+  animation: smooth 10s infinite;
+}
+div.mass {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background:  rgb(253, 247, 230);
+  opacity: 1;
+  position: absolute;
+  box-shadow: -2px 2px 20px black inset;
+}
+.mass:hover{
+  background: white;
+  opacity: .1;
+  transition: 1.5s ease-in-out;
+}
+section#cats{
+  background-color: black;
+  color: rgb(6, 108, 139);
+}
+section#kings{
+  background: linear-gradient(180deg, rgb(89, 96, 98) 0%, rgba(255,253,245,1) 100%);
+padding-top: 10px;
+
+}
+
 button{
   outline: none;
   padding: 25px;
-  margin-right: 140px;
+  margin-right: 120px;
   margin-left: 120px;
   border-radius: 29px;
-  font-size: 10px;
+  font-size: 13px;
   color: white;
-  background-color: rgb(54, 161, 32);
+  background-color: rgb(16, 70, 151);
   font-weight: bold;
+  transition: .5s;
 }
-button#king:hover{
-  transform: rotateZ(-180deg);
+button:hover{
+  background-color: rgb(20, 155, 179);
+}
+#king span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-button#queen:hover{
-  box-shadow: inset 0 0 0 10px #51a6eb;
+#king span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
+
+#king:hover span {
+  padding-right: 25px;
+  
+ 
+}
+
+#king:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+#queen span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#queen span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#queen:hover span {
+  padding-right: 25px;
+ 
+}
+
+#queen:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
 #joker span {
   cursor: pointer;
   display: inline-block;
@@ -165,24 +267,40 @@ button#queen:hover{
 
 #joker:hover span {
   padding-right: 25px;
+ 
 }
 
 #joker:hover span:after {
   opacity: 1;
   right: 0;
+
 }
-button#ace{
-  box-shadow: 0 9px rgb(20, 20, 20);
-}
-button#ace:active{
-  background-color: #3e8e41;
-  box-shadow: 0 5px rgb(43, 42, 42);
-  transform: translateY(4px);
-}
-button#ace:hover{
-  background-color: #3e8e41
+#ace span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
+#ace span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#ace:hover span {
+  padding-right: 25px;
+ 
+}
+
+#ace:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
 
 
 footer{
@@ -192,4 +310,15 @@ footer{
   font-weight: bolder;
  
   background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+}
+
+
+@keyframes smooth{
+0%{background-color:green ;}
+20%{background-color: rgb(13, 224, 13) ;}
+40%{background-color:rgb(21, 199, 125) ;}
+60%{background-color:rgb(20, 149, 172) ;}
+80%{background-color: rgb(13, 104, 121);}
+100%{background-color:rgb(0, 19, 128) ;}
+
 }
