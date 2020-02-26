@@ -93,3 +93,11 @@ li:last-child {
 button{
     transform: translateX(600px);
 }
+footer{
+  width: auto;
+  text-align: center;
+  border-top: black 3px solid;
+  font-weight: bolder;
+ 
+  background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+}
