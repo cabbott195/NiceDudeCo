@@ -1,4 +1,4 @@
-/*footer styles*/
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 ul{
     list-style-type: none;
     margin: 0;
@@ -23,14 +23,14 @@ ul{
   li:last-child{
     border-right: none;
 }
-/*Makes the header center and fit better*/
+
 #header {
     max-width: 960px;
     margin: auto;
     padding: 10px;
     text-align: center;
   }
-/*Slide In Animation*/
+  
 h1{
     text-align: center;
     animation-name: heading;
@@ -55,19 +55,23 @@ p{
 @keyframes paragraph{
     0% {transform: translateX(-1000px)}
 }
-/*Changes font and background image*/
 html{
     font-family: 'Fjalla One', sans-serif;   
-    background-image: url(carbonimg.png);
+    background-image: url(whitetile.png);
+    font-family: 'Anton', serif;
 }
 header#header{
     background: white;
-    font-size: 23px;
+    font-size: 20px;
 }
 h1.title{
-    color: white;
+    color: black;
+    font-size: 80px;
 }
-/*Makes my footer always stay at the bottom*/
+h1.header{
+    font-size: 50px;
+    color: black;
+}
 footer{
     position: fixed;
     bottom: 0;
@@ -79,12 +83,11 @@ footer{
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
 }
-/*Changes the color of my buttons*/
 button{
     padding: none;
     background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
 }
 header#header1{
     font-size: 35px;
-    color: white;
+    color: black;
 }
