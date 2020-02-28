@@ -12,10 +12,10 @@
 }
 
 h1{
-    font-family: 'Mansalva', cursive;
+    font-family: fantasy;
     text-align: center;
     margin-top: 10px;
-    color: #3b6b7a;
+    color: black;
 }
 nav{
     text-align: center;
@@ -48,39 +48,42 @@ div[id^="col"] {
     box-sizing: border-box;
  }
  a{
-    color: white;
+    color: #6fa2b8;
     text-decoration: none;
-    font-family: 'Mansalva', cursive;
+    font-family: fantasy;
     font-size: 1.5em;
     
  }
  a:hover{
-     color: #c7c5c4;
+     color: gray;
  }
  html{
-    background: linear-gradient(#c7c5c4, #3d3d3d) fixed;
+    background: linear-gradient(gray,#3b5866)fixed;
     height: 100%;
  }
  #col-1-6{
 background-color: black;
-border-right: 2px white solid;
+border-right: 2px #6fa2b8 solid;
 text-align: center;
  }
 div.logo{
     text-align: center;
 }
 button{
+    background-color: #273942;
     margin-left: 20px;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 15px;
     font-size: 1.5em;
+    color: white;
+    font-family: fantasy;
 }
 p{
     font-size: 2em;
     color: black;
-    font-family: cursive;
+    font-family: fantasy;
 }
 footer{
     position: fixed;
@@ -91,4 +94,16 @@ footer{
     text-align: center;
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
+}
+h2{
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    color: #6fa2b8;
+    border-top: #6fa2b8 10px double;
+    border-bottom: #6fa2b8 10px double;
+    margin-top: 50px;
+}
+section{
+    display: block;
 }

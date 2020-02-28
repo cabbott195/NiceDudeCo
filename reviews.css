@@ -85,3 +85,12 @@ div.row {
 button{
     background:linear-gradient(#3b6b7a,gray)
 }
+h2{
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border-top: white 10px double;
+    border-bottom: white 10px double;
+    margin-top: 50px;
+}
