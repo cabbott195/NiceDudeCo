@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+
 /*puts image on background*/
 html{
-    background-image: url(Wood.jpg);
+    background-image: url(worldmapbackground.jpg);
 }
 
 /*centers the header*/
 body > h1{
   margin-left: 550px;
-  font-size: 65px;
+  font-size: 75px;
   font-weight: bold;
+  font-family: 'Odibee Sans' ;
 }
 
 
@@ -24,6 +29,8 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: rgb(89, 96, 98);
+    font-family: 'Odibee Sans' ;
+    font-size: 30px;
 }
   
 li {
@@ -74,14 +81,16 @@ input#search{
     background: #D35B3F;
     transform: translateY(-30px);
     color: white;
+   
 }
 
 input#search:hover{
+    transition: 2s;
     background: rgb(224, 228, 0);
     border: rgb(145, 54, 163) outset 4px;
     color: white;
-    -webkit-transition: linear .1s;
-    transition: linear .1s;
+    -webkit-transition: linear .5s;
+    transition: linear .5s;
 }
 p.description{
     margin-left: 900px;
@@ -98,8 +107,11 @@ button{
 footer{
     width: auto;
     text-align: center;
-    border-top: black 3px solid;
+    border-top: black 1px solid;
     font-weight: bolder;
-   
-    background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+    background:radial-gradient(circle, rgb(204, 208, 212)0%, rgb(89, 96, 98)100%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
   }

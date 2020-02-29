@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+
+
 html{
     background-image: url(worldmapbackground.jpg);
 }
@@ -5,8 +10,13 @@ body > h1{
   margin-left: 550px;
   font-size: 65px;
   font-weight: bold;
+  font-family: 'Odibee Sans' ;
+  font-size: 80px;
 }
 
+img:hover{
+    transform: scale(1.1);
+}
 
 
 h1{
@@ -20,6 +30,8 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: #42728c;
+    font-family: 'Odibee Sans' ;
+    font-size: 23px;
 }
   
 li {
@@ -64,14 +76,15 @@ input#search{
     border-radius: 20px;
     width: 146px;
     height: 55px;
-    border: rgb(11, 187, 172) outset 4px;
-    background: #c4e603;
+    border: rgb(224, 53, 23) outset 4px;
+    background: rgb(233, 83, 75);
     transform: translateY(-30px);
     color: white;
+    box-shadow: black 0px 0px 10px,  black 0px 0px 10px;
 }
 
 input#search:hover{
-    background: rgb(224, 228, 0);
+    background: rgb(214, 74, 66);
     border: rgb(145, 54, 163) outset 4px;
     color: white;
     -webkit-transition: linear .1s;
@@ -91,8 +104,11 @@ button{
 footer{
     width: auto;
     text-align: center;
-    border-top: black 3px solid;
+    border-top: black 1px solid;
     font-weight: bolder;
-   
-    background:radial-gradient(circle, rgb(241, 237, 255) 0%, rgb(88, 102, 119)100%);
+    background:radial-gradient(circle, rgb(204, 208, 212)0%, rgb(89, 96, 98)100%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
   }
