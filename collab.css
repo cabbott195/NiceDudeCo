@@ -188,46 +188,7 @@ footer{
     padding-top: 5px;
     background-color: honeydew;
 }
-button{
-    outline: none;
-    padding: 25px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 29px;
-    font-size: 13px;
-    color: white;
-    background-color: rgb(54, 161, 32);
-    font-weight: bold;
-    transition: .5s;
-  }
-  button:hover{
-    background-color: rgb(24, 218, 24);
-  }
-  #king span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+select, label{
+  margin-left: 60px;
   
-  #king span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  #king:hover span {
-    padding-right: 25px;
-    
-   
-  }
-  
-  #king:hover span:after {
-    opacity: 1;
-    right: 0;
-  
-  }
- 
+}

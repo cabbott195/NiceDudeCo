@@ -36,7 +36,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 9px 95px;
+    padding: 9px 92px;
     text-decoration: none;
     transition: .8s;
   }
@@ -84,7 +84,7 @@ div.container {
   
 }
 div.container:hover{
-  background: url(https://images.fineartamerica.com/images/artworkimages/medium/2/louis-vuitton-monogram-4-nikita-transparent.png) fixed ;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnvNZ3X01fviaNfXEI60FXfdzHA2YQ0nxdoEiutvMtLUuEKLLd) fixed ;
 }
 div.color-overlay {
   width: 100%;
@@ -174,133 +174,87 @@ section#cats{
   background-color: black;
   color: rgb(98, 169, 190);
 }
-section#kings{
-  background: linear-gradient(180deg, rgb(89, 96, 98) 0%, rgba(255,253,245,1) 100%);
-padding-top: 10px;
 
+section#des{
+  background-color: white;
 }
-
-button{
-  outline: none;
-  padding: 25px;
-  margin-right: 100px;
-  margin-left: 110px;
-  border-radius: 29px;
-  font-size: 13px;
+h2#maan{
   color: white;
-  background-color: rgb(54, 161, 32);
-  font-weight: bold;
-  transition: .5s;
+  background-color: black;
 }
-button:hover{
-  background-color: rgb(24, 218, 24);
+p{
+  color: black;
+  background-color: white;
+  border-left: black 10px double;
+  text-align: center;
+  display: block;
+  margin-left: 300px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 40.3px;
+  padding-top: 13px;
+  padding-bottom: 15px;
 }
-#king span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+p::first-letter{
+  font-weight: bold ;
 }
-
-#king span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#king:hover span {
-  padding-right: 25px;
+ 
+ #left{
+   background-color: white;
+ }
+ @keyframes cool {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+ }
+ 
+ #can {
+   position:relative;
+   height:281px;
   
+   
+ }
+ #can img {
+   position:absolute;
+   left:0;
+   margin:10px;
+  
+   
+ }
  
+ #can img {
+   transform: translateX(5px) translateY(-13px);
+   animation-name: cool;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 20s;
+ }
+ #can img:nth-of-type(1) {
+   animation-delay: 15s;
+ }
+ #can img:nth-of-type(2) {
+   
+   animation-delay: 10s;
+ }
+ #can img:nth-of-type(3) {
+   animation-delay: 5s;
+ }
+ #can img:nth-of-type(4) {
+  animation-delay: 0s;
 }
 
-#king:hover span:after {
-  opacity: 1;
-  right: 0;
-
-}
-#queen span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-#queen span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#queen:hover span {
-  padding-right: 25px;
- 
-}
-
-#queen:hover span:after {
-  opacity: 1;
-  right: 0;
-
-}
-
-#joker span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-#joker span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#joker:hover span {
-  padding-right: 25px;
- 
-}
-
-#joker:hover span:after {
-  opacity: 1;
-  right: 0;
-
-}
-#ace span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-#ace span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#ace:hover span {
-  padding-right: 25px;
- 
-}
-
-#ace:hover span:after {
-  opacity: 1;
-  right: 0;
-
-}
 
 
 footer{
