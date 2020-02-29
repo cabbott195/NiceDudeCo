@@ -146,6 +146,7 @@ footer{
     text-align: center;
     box-shadow: 0px 0px 10px black;
     padding-top: 5px;
+    background-color: honeydew;
 }
 figure{
   transition: .8s;
