@@ -185,15 +185,15 @@ h2#maan{
 p{
   color: black;
   background-color: white;
-  border-left: black 10px double;
+  border-left: black 11px double;
   text-align: center;
   display: block;
   margin-left: 300px ;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 40.3px;
-  padding-top: 13px;
-  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 p::first-letter{
   font-weight: bold ;
